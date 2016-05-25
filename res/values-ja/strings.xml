@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickDial</string>
+
+    <string name="main_message">ボタンを押すとダイヤルします。</string>
+
+    <string name="group1">Group-1</string>
+	<string name="group2">Group-2</string>
+	<string name="group3">Group-3</string>
+	<string name="group4">Group-4</string>
+	<string name="group5">Group-5</string>
+
+    <string name="category1">１番目のダイヤル設定</string>
+    <string name="category2">２番目のダイヤル設定</string>
+    <string name="category3">３番目のダイヤル設定</string>
+    <string name="category4">４番目のダイヤル設定</string>
+    <string name="category5">５番目のダイヤル設定</string>
+    <string name="category6">６番目のダイヤル設定</string>
+    <string name="category7">７番目のダイヤル設定</string>
+    <string name="category8">８番目のダイヤル設定</string>
+    <string name="category9">９番目のダイヤル設定</string>
+    <string name="category10">10番目のダイヤル設定</string>
+    <string name="category11">11番目のダイヤル設定</string>
+    <string name="category12">12番目のダイヤル設定</string>
+    <string name="category13">13番目のダイヤル設定</string>
+    <string name="category14">14番目のダイヤル設定</string>
+    <string name="category15">15番目のダイヤル設定</string>
+    <string name="category16">16番目のダイヤル設定</string>
+    <string name="category17">17番目のダイヤル設定</string>
+    <string name="category18">18番目のダイヤル設定</string>
+    <string name="category19">19番目のダイヤル設定</string>
+    <string name="category20">20番目のダイヤル設定</string>
+    <string name="category21">21番目のダイヤル設定</string>
+    <string name="category22">22番目のダイヤル設定</string>
+    <string name="category23">23番目のダイヤル設定</string>
+    <string name="category24">24番目のダイヤル設定</string>
+    <string name="category25">25番目のダイヤル設定</string>
+    <string name="category26">26番目のダイヤル設定</string>
+    <string name="category27">27番目のダイヤル設定</string>
+    <string name="category28">28番目のダイヤル設定</string>
+    <string name="category29">29番目のダイヤル設定</string>
+    <string name="category30">30番目のダイヤル設定</string>
+    <string name="category31">31番目のダイヤル設定</string>
+    <string name="category32">32番目のダイヤル設定</string>
+    <string name="category33">33番目のダイヤル設定</string>
+    <string name="category34">34番目のダイヤル設定</string>
+    <string name="category35">35番目のダイヤル設定</string>
+    <string name="category36">36番目のダイヤル設定</string>
+    <string name="category37">37番目のダイヤル設定</string>
+    <string name="category38">38番目のダイヤル設定</string>
+    <string name="category39">39番目のダイヤル設定</string>
+    <string name="category40">40番目のダイヤル設定</string>
+
+    <string name="prefsc_summary">連絡先から取得</string>
+    <string name="prefsc_title">連絡先から取得</string>
+
+    <string name="prefsc_title_del">このダイヤル先を削除</string>
+
+    <string name="txt_no_reg">登録なし</string>
+
+	<string name="categoryGeneral">一般</string>
+	<string name="categoryContactSetting">連絡先</string>
+
+	<string name="list_title_dorc">動作選択</string>
+	<string name="list_summary_dorc">番号入力or通話</string>
+	<string name="list_dialogtitle_dorc">動作選択</string>
+
+	<string name="list_title_listheight">リストの高さ</string>
+	<string name="list_summary_listheight">リストの高さ</string>
+	<string name="list_dialogtitle_listheight">高さ選択</string>
+
+	<string name="list_title_charsize">文字サイズ</string>
+	<string name="list_summary_charsize">文字サイズ</string>
+	<string name="list_dialogtitle_charsize">サイズ選択</string>
+
+	<string name="list_title_theme">画面背景</string>
+	<string name="list_summary_theme">黒地or白地</string>
+	<string name="list_dialogtitle_theme">背景色選択</string>
+
+	<string name="txt_chg_theme">背景色変更は次回起動時\nに有効になります。</string>
+
+	<string name="tab_name_title">グループ名</string>
+	<string name="tab_name_summary">グループ名を設定する</string>
+
+    <string name="action_settings">設定</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4015876919076184/1616668153</string>
+
+</resources>

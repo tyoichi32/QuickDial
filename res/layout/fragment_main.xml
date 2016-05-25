@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jp.saitama.muchan.quickdial.quickdial$PlaceholderFragment" >
+
+   	<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+   		<LinearLayout android:id="@+id/content1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+			<TextView android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="@string/main_message"/>
+
+			<ScrollView android:id="@+id/ScrollView01"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_weight="1">
+
+				<TableLayout android:id="@+id/TableLayout01"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent">
+
+					<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+						<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+							<TextView android:text="@+id/line_no1" android:id="@+id/line_no1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton01" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView01" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView01" android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="10px" android:layout_gravity="center_vertical" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow02" android:layout_height="wrap_content" android:layout_width="fill_parent">
+						<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no2" android:id="@+id/line_no2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton02" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView02" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView02" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow03" android:layout_height="wrap_content" android:layout_width="fill_parent">
+						<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no3" android:id="@+id/line_no3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton03" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView03" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView03" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow04" android:layout_height="wrap_content" android:layout_width="fill_parent">
+						<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no4" android:id="@+id/line_no4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton04" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView04" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView04" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+						<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no5" android:id="@+id/line_no5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton05" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView05" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView05" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+						<LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no6" android:id="@+id/line_no6" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton06" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView06" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView06" android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow07" android:layout_width="wrap_content" android:layout_height="wrap_content">
+						<LinearLayout android:id="@+id/LinearLayout07" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no7" android:id="@+id/line_no7" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton07" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView07" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView07" android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow08" android:layout_width="wrap_content" android:layout_height="wrap_content">
+						<LinearLayout android:id="@+id/LinearLayout08" android:layout_width="wrap_content" android:layout_height="wrap_content">
+							<TextView android:text="@+id/line_no8" android:id="@+id/line_no8" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5px" android:layout_gravity="center_vertical" />
+							<ImageButton android:layout_width="wrap_content" android:id="@+id/ImageButton08" android:layout_height="wrap_content" android:layout_toRightOf="@+id/TextView08" android:onClick="onClick" />
+							<TextView android:text="@+id/TextView08" android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_marginLeft="10px" />
+						</LinearLayout>
+					</TableRow>
+
+				</TableLayout>
+			</ScrollView>
+
+		</LinearLayout>
+	</FrameLayout>
+
+</RelativeLayout>
